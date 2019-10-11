@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.login.home.TabInforActivity">
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+         <android.support.design.widget.TabLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:id="@+id/tabinfor_tab"
+             app:tabMode="scrollable"
+
+             app:tabSelectedTextColor="@color/price"
+             >
+
+         </android.support.design.widget.TabLayout>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/tabinfor_tv1"
+             android:textSize="20dp"
+             android:gravity="center"
+             />
+           <TextView
+               android:layout_marginTop="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/tabinfor_tv2"
+               android:textSize="15dp"
+               android:gravity="center"
+               />
+         <android.support.v4.view.ViewPager
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/tabinfor_vp"
+             >
+
+         </android.support.v4.view.ViewPager>
+
+     </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

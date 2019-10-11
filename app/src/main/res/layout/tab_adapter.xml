@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+     android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+       <ImageView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:id="@+id/tablist_img"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15dp"
+           android:text="455"
+           android:layout_marginTop="15dp"
+           android:gravity="center"
+           android:id="@+id/tablist_name"
+           />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:id="@+id/tablist_price"
+          android:gravity="center"
+          android:textColor="@color/price"
+          />
+</LinearLayout>
